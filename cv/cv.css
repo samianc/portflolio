@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+    width: 720px;
+    display: table;
+    margin: auto;
+    color: #595959;
+}
+section#intro{
+    background-color: #0B4556;
+    color: white;
+    display: table;
+    border-bottom: 10px solid #DC8417;
+    padding: 4%;
+    width: 92%;
+}
+section#intro h1{
+	margin: 0;
+    font-size: 1.5em;
+}
+section#intro h2{
+    font-size: 15px;
+    margin: 0px;
+}
+section#intro p{
+    font-size: 15px;
+    margin: 0px;
+    text-align: justify;
+}
+#icons.vertical{
+	padding: 0;
+    width: 210px;
+}
+#icons.vertical a{
+	display: table;
+    margin-bottom: 20px;
+}
+#icons.vertical a:last-child{
+	margin: 0;
+}
+#icons.vertical figure{
+	width: 22px;
+	height: 22px;
+}
+#icons.vertical figure, #icons.vertical label{
+	display: table;
+	float: left;
+}
+#icons.vertical i{
+	font-size: 15px;
+}
+section#info div{
+    background-color: #EFEFEF;
+    padding: 10px 5%;
+    margin-bottom: 10px;
+    position: relative;
+}
+section#info h3{
+	color: #DC8417;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+section#info h4{
+	margin: 15px 0;
+}
+section#info h4:nth-child(2){
+	margin-top: 0;
+}
+section#info h4 + h4{
+	margin-top: -15px;
+    display: table;
+}
+section#info span{
+	float: right;
+}
+section#info span i{
+    font-style: normal;
+    font-weight: bold;
+    margin: 0 10px;
+}
+section#info table{
+	width: 100%;
+}
+section#info table tr td{
+	border-bottom: 1pt solid rgba(0, 0, 0, 0.21);
+    padding: 10px;
+}
+section#info ul li{
+    margin-bottom: 10px;
+}
+section#info div#portfolio{
+    display: table;
+    width: 90%;
+    background-color: #0B4556;
+    border-top: 10px solid #DC8417;
+}
+section#info div#portfolio *{
+    color: white;
+}
+section#info div#portfolio h3{
+    border-bottom: 1px solid white;
+}
+section#info div#portfolio a{
+    width: 18%;
+    margin: auto;
+    display: table;
+    text-align: center;
+}
+section#info div#portfolio a img{
+    width: 100%;
+}
