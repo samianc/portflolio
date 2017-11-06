@@ -297,7 +297,7 @@ header #menu li{
     display: table-cell;
     vertical-align: middle;
     padding-right: 5%;
-    width: 320px;
+    width: 340px;
 }
 #icons figure{
     margin: 0 10px;
@@ -1535,6 +1535,11 @@ footer article > div p{
     -ms-transform: translateY(0px);
     -o-transform: translateY(0px);
   }
+}
+@media(max-width: 970px) {
+    #icons{
+        width: 320px;
+    }
 }
 @media(max-width: 940px){
     #icons:not(.ignore-r){
