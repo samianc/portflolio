@@ -107,7 +107,9 @@ $('form .submit').click(function(){
 	form = elm.parents('form');
 	elm.addClass('protect').text('SENDING');
 	$.ajax({
-		url: form.attr('action')+'?'+form.serialize()
+		url: form.attr('action')+'?'+form.serialize(),
+		jsonp: "callback",
+		dataType: "jsonp",
 	}).done(function(){
 		elm.removeClass('protect').text(':)');
 		setTimeout(function() {
