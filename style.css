@@ -1206,6 +1206,7 @@ section#about span{
     margin: 5px;
     background-size: 26px;
     float: left;
+    cursor: default;
 }
 #transport-shine{
     background-color: white;
