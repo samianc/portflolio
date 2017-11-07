@@ -313,6 +313,7 @@ header #menu li{
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
+    cursor: pointer;
 }
 #icons figure i{
     text-decoration: none;
@@ -325,6 +326,7 @@ header #menu li{
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
+    cursor: pointer;
 }
 #sky
 {
