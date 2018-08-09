@@ -1070,7 +1070,7 @@ section#contact > article{
     width: 100%;
 }
 section#contact > article .col{
-    width: 50%;
+    width: 100%;
     display: inline-block;
     float: left;
     padding-top: 10px;
@@ -1081,10 +1081,10 @@ section#contact a{
     font-family: Lato;
     font-size: 30px;
     color: #9C9C9C;
-    padding-left: 10%;
+    padding-left: 45px;
     padding-bottom: 20px;
     padding-top: 20px;
-    display: block;
+    display: table;
     position: relative;
     margin: auto;
 }
