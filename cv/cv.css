@@ -6,10 +6,9 @@ body{
     color: #595959;
 }
 section#intro{
-    background-color: #0B4556;
-    color: white;
+    color: #595959;
     display: table;
-    border-bottom: 10px solid #DC8417;
+    border-bottom: 2px solid #DC8417;
     padding: 4%;
     width: 92%;
 }
@@ -28,7 +27,7 @@ section#intro p{
 }
 #icons.vertical{
 	padding: 0;
-    width: 210px;
+    width: 270px;
 }
 #icons.vertical a{
 	display: table;
@@ -46,7 +45,7 @@ section#intro p{
 	float: left;
 }
 #icons.vertical i{
-	font-size: 15px;
+	font-size: 10px;
 }
 section#info div{
     background-color: #EFEFEF;
