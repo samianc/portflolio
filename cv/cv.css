@@ -9,8 +9,8 @@ section#intro{
     color: #595959;
     display: table;
     border-bottom: 2px solid #DC8417;
-    padding: 4%;
-    width: 92%;
+    padding: 4% 0;
+    width: 100%;
 }
 section#intro h1{
 	margin: 0;
@@ -31,7 +31,7 @@ section#intro p{
 }
 #icons.vertical a{
 	display: table;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #icons.vertical a:last-child{
 	margin: 0;
@@ -54,12 +54,14 @@ section#info div{
     position: relative;
 }
 section#info h3{
-	color: #DC8417;
+	/* color: #DC8417; */
     border-bottom: 1px solid gray;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 section#info h4{
 	margin: 15px 0;
+    font-size: 20px;
 }
 section#info h4:nth-child(2){
 	margin-top: 0;
@@ -67,14 +69,19 @@ section#info h4:nth-child(2){
 section#info h4 + h4{
 	margin-top: -15px;
     display: table;
+    font-size: 12px;
 }
 section#info span{
-	float: right;
+    font-size: 12px;
+    float: right;
 }
-section#info span i{
+section#info span i{    
     font-style: normal;
-    font-weight: bold;
-    margin: 0 10px;
+    font-size: 9px;
+    line-height: 0;
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
 }
 section#info table{
 	width: 100%;
@@ -106,4 +113,36 @@ section#info div#portfolio a{
 }
 section#info div#portfolio a img{
     width: 100%;
+}
+.row {
+    display: flex;
+}
+.skills {
+    width: 45%;
+    margin-left: 10px;
+}
+.skills div > div {
+    padding: 0 !important;
+    margin: 0 -5px;
+}
+.skills label {
+    text-decoration: underline;
+    font-size: 13px;
+    padding: 5px;    
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skills ul span {
+    float: inherit !important;
+}
+.skills ul div {
+    display: flex;
+    flex-direction: column;
+}
+.no-decorator {
+    list-style: none;
+    padding-left: 0;
 }
