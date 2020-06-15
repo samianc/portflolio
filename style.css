@@ -440,7 +440,7 @@ body.to-space #town, body.land #town{
     height: 20px;
     background-color: #A5572A;
     margin: auto;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     top: 30px;
